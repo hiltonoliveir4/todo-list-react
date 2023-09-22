@@ -1,0 +1,86 @@
+.titleEdit {
+  position: relative;
+}
+
+.titleEdit .img-edit {
+  top: 50%;
+  left: 5%;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  transform: translateY(-50%);
+}
+
+.task-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(9, 30, 66, 0.25);
+  cursor: pointer;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.task-item .titleItem,
+.titleEdit {
+  background-color: rgb(14, 64, 83);
+  width: 100%;
+  border-radius: 3px 3px 0 0;
+}
+
+.task-item .titleItem p {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  padding: 8px;
+  overflow-wrap: break-word;
+}
+
+.titleEdit .inputTitle {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  padding: 8px;
+  border: none;
+  background-color: transparent;
+}
+
+.inputTitle:focus {
+  outline: none;
+}
+
+.task-item select {
+  display: block;
+  width: 100%;
+  margin: 8px;
+  border: none;
+  color: #555555;
+  text-align: center;
+}
+
+.task-item .delete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(230, 164, 164);
+  width: 100%;
+  border-radius: 0 0 3px 3px;
+  color: rgb(185, 36, 36);
+  font-weight: bold;
+}
+
+.task-item .delete img {
+  width: 20px;
+  height: 20px;
+  margin: 4px;
+}
+
+.task-item input[type="text"] {
+  border: none;
+  font-size: 14px;
+  display: block;
+  width: 100%;
+}
